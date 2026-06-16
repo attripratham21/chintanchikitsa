@@ -523,9 +523,9 @@ const HomePage = ({ setPage }) => {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))", gap: 24 }}>
             {[
-              { icon: "🧠", title: "Mental Clarity", desc: "Dissolve mental fog, limiting beliefs, and thought loops through NLP, cognitive reframing, and consciousness techniques that create permanent, measurable shifts.", color: T.teal },
+              { icon: "🧠", title: "Mental Clarity", desc: "Dissolve mental fog, limiting beliefs, and thought loops, cognitive reframing, and consciousness techniques that create permanent, measurable shifts.", color: T.teal },
               { icon: "💜", title: "Emotional Freedom", desc: "Release stored grief, trauma, and emotional blocks through Bach Flower Remedies, somatic work, and sound frequencies — returning you to your natural state of balance.", color: T.purple },
-              { icon: "✨", title: "Spiritual Alignment", desc: "Reconnect with your soul's deepest purpose through Shamanic journeywork, Past Life Regression, and Quantum Soul Alignment — revealing the life you were born to live.", color: T.gold },
+              { icon: "✨", title: "Spiritual Alignment", desc: "Reconnect with your soul's deepest purpose through Shamanic healings, Past Life Regression, and Quantum Soul Re-Alignment — revealing the life you were born to live.", color: T.gold },
             ].map(c => (
               <GlassCard key={c.title} style={{ padding: 36 }} glow>
                 <div style={{ width: 60, height: 60, borderRadius: "50%", background: `radial-gradient(circle, ${c.color}33, transparent)`, border: `1px solid ${c.color}44`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 26, marginBottom: 22 }}>{c.icon}</div>
