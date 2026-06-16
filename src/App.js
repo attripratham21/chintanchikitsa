@@ -343,7 +343,7 @@ const Navbar = ({ page, setPage }) => {
           <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 19, fontWeight: 700, letterSpacing: "0.03em", lineHeight: 1.1 }}>
             Chintan<span style={{ color: T.gold }}>.</span>Chikitsa
           </div>
-          <div style={{ fontSize: 9, color: T.muted, letterSpacing: "0.18em", textTransform: "uppercase" }}>Deepali Sharma · Frequency Healer</div>
+          <div style={{ fontSize: 9, color: T.muted, letterSpacing: "0.18em", textTransform: "uppercase" }}>Deepalli Sharma · Frequency Healer</div>
         </div>
       </div>
       <div className="desktop-only" style={{ display: "flex", gap: 28, alignItems: "center" }}>
@@ -431,7 +431,7 @@ const HomePage = ({ setPage }) => {
             <em style={{ color: T.gold, textShadow: `0 0 80px ${T.gold}55`, fontStyle: "italic" }}>Rise Without Limits</em>
           </h1>
           <p className="fadeUp-3" style={{ fontSize: 18, color: T.muted, maxWidth: 560, margin: "0 auto 44px", lineHeight: 1.85, fontWeight: 300 }}>
-            Deepali Sharma guides you through Shamanic healing, Sound therapy, NLP, and Quantum Soul Alignment — transforming pain into power, confusion into clarity, and fear into freedom.
+            Deepalli Sharma guides you through Shamanic healing, Sound therapy, NLP, and Quantum Soul Alignment — transforming pain into power, confusion into clarity, and fear into freedom.
           </p>
           <div className="fadeUp-4" style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
             <GoldBtn onClick={() => window.open("https://cal.com/chintanchikitsa/15min?overlayCalendar=true","_blank")}>✦ Book Free Discovery Call</GoldBtn>
@@ -477,7 +477,7 @@ const HomePage = ({ setPage }) => {
                 boxShadow: `0 0 80px ${T.purple}44, 0 0 0 1px ${T.gold}22`,
                 position: "relative", zIndex: 2, aspectRatio: "3/4",
               }}>
-                <img src={HERO_IMG} alt="Deepali Sharma — Frequency Coach & Holistic Healer at Chintan Chikitsa"
+                <img src={HERO_IMG} alt="Deepalli Sharma — Frequency Coach & Holistic Healer at Chintan Chikitsa"
                   style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top" }} />
                 <div style={{
                   position: "absolute", bottom: 20, left: 20, right: 20,
@@ -485,7 +485,7 @@ const HomePage = ({ setPage }) => {
                   border: `1px solid ${T.gold}44`, borderRadius: 12, padding: "14px 18px",
                 }}>
                   <div style={{ fontSize: 10, color: T.teal, letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: 4 }}>Your Healer</div>
-                  <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 22, color: T.white }}>Deepali Sharma</div>
+                  <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 22, color: T.white }}>Deepalli Sharma</div>
                   <div style={{ fontSize: 12, color: T.muted, marginTop: 2 }}>Founder · Chintan Chikitsa</div>
                 </div>
               </div>
@@ -493,10 +493,10 @@ const HomePage = ({ setPage }) => {
             <div>
               <Label>The Healer's Path</Label>
               <h2 style={{ fontSize: "clamp(32px, 4.5vw, 56px)", fontWeight: 300, marginBottom: 24 }}>
-                Meet <em style={{ color: T.gold }}>Deepali Sharma</em>
+                Meet <em style={{ color: T.gold }}>Deepalli Sharma</em>
               </h2>
               <p style={{ color: T.muted, lineHeight: 1.95, fontSize: 15, marginBottom: 18 }}>
-                Deepali Sharma is a certified Frequency Coach, Shamanic Practitioner, NLP Master, Sound Healing Therapist, and Bach Flower Remedy specialist — with over 8 years of transformative practice serving hundreds of individuals, families, and organisations across India and internationally.
+                Deepalli Sharma is a certified Frequency Coach, Shamanic Practitioner, NLP Master, Sound Healer, and Bach Flower Remedy Practitioner — with over 8 years of transformative practice serving hundreds of individuals, families, and organisations across India and internationally.
               </p>
               <p style={{ color: T.muted, lineHeight: 1.95, fontSize: 15, marginBottom: 18 }}>
                 Her journey began not in a classroom but in crisis — a deeply personal encounter with burnout, disconnection, and the quiet collapse of the self. What she found on the other side was not a recovery, but a <strong style={{ color: T.white }}>revelation</strong>: that the body carries ancient intelligence, that sound can dissolve what words cannot, and that healing is not something done to you — it is something remembered <em style={{ color: T.goldLight }}>within</em> you.
@@ -630,14 +630,14 @@ const ServicesPage = ({ setPage }) => (
           <Label>Transformative Healing Modalities</Label>
           <h1 style={{ fontSize: "clamp(40px, 6vw, 76px)", fontWeight: 300 }}>Our <em style={{ color: T.gold }}>Services</em></h1>
           <p style={{ color: T.muted, fontSize: 17, maxWidth: 580, margin: "20px auto 0", lineHeight: 1.85 }}>
-            Every session with Deepali is a sacred container — held with integrity, guided by intuition, and grounded in both 40,000-year-old wisdom and contemporary neuroscience.
+            Every session with Deepalli is a sacred container — held with integrity, guided by intuition, and grounded in both 40,000-year-old wisdom and contemporary neuroscience.
           </p>
         </div>
         <div style={{ display: "grid", gap: 28 }}>
           {[
             {
               icon: "🥁", title: "Shamanic Healing", badge: "Ancient Wisdom", color: T.purple,
-              desc: "Enter the spirit worlds through the heartbeat of the drum. Shamanic healing is humanity's oldest therapeutic tradition — practised across 6 continents for over 40,000 years. Deepali's sessions weave together soul retrieval, power animal reconnection, ancestral cord-cutting, and entity removal to reclaim the fragmented parts of your soul lost to trauma, grief, or disconnection.",
+              desc: "Enter the spirit worlds through the heartbeat of the drum. Shamanic healing is humanity's oldest therapeutic tradition — practised across 6 continents for over 40,000 years. Deepalli's sessions weave together soul retrieval, power animal reconnection, ancestral cord-cutting, and entity removal to reclaim the fragmented parts of your soul lost to trauma, grief, or disconnection.",
               benefits: ["Soul Retrieval", "Power Animal Retrieval", "Ancestral Healing", "Cord Cutting", "Space & Land Clearing", "Shamanic Breathwork"],
               subText: "Ideal for: Trauma recovery · Feeling \"not quite yourself\" · Persistent emotional patterns · Ancestral wounds · Spiritual disconnection",
             },
@@ -649,13 +649,13 @@ const ServicesPage = ({ setPage }) => (
             },
             {
               icon: "🧬", title: "NLP Therapy", badge: "Clinically Aligned", color: T.gold,
-              desc: "Neuro-Linguistic Programming maps the precise relationship between your neurology, language, and behavioural patterns. Using advanced NLP techniques — timeline therapy, sub-modality restructuring, fast phobia cure, and anchoring — Deepali creates permanent, rapid transformation. What traditional therapy may take years to address, NLP often resolves in a handful of deeply focused sessions.",
+              desc: "Neuro-Linguistic Programming maps the precise relationship between your neurology, language, and behavioural patterns. Using advanced NLP techniques — timeline therapy, sub-modality restructuring, fast phobia cure, and anchoring — Deepalli creates permanent, rapid transformation. What traditional therapy may take years to address, NLP often resolves in a handful of deeply focused sessions.",
               benefits: ["Phobia Elimination", "Grief & Loss Processing", "Confidence & Self-Worth", "Relationship Rewiring", "Goal Achievement", "Anxiety & Fear Release"],
               subText: "Ideal for: People who want results, not endless processing",
             },
             {
               icon: "🌺", title: "Bach Flower Remedies", badge: "Holistic", color: "#E8A4A4",
-              desc: "Dr. Edward Bach's 38 flower essences are precision-calibrated to specific emotional states — fear, overwhelm, grief, resentment, uncertainty, and more. After a deep intake conversation, Deepali crafts a bespoke remedy blend that gently, systematically shifts your emotional landscape over weeks and months. No side effects. No suppression. Just a return to your natural emotional equilibrium.",
+              desc: "Dr. Edward Bach's 38 flower essences are precision-calibrated to specific emotional states — fear, overwhelm, grief, resentment, uncertainty, and more. After a deep intake conversation, Deepalli crafts a bespoke remedy blend that gently, systematically shifts your emotional landscape over weeks and months. No side effects. No suppression. Just a return to your natural emotional equilibrium.",
               benefits: ["Emotional Regulation", "Anxiety & Panic", "Grief & Bereavement", "Relationship Conflict", "Burnout Recovery", "Children's Emotional Health"],
               subText: "Works beautifully alongside other healing modalities",
             },
@@ -697,7 +697,7 @@ const ServicesPage = ({ setPage }) => (
           <GlassCard style={{ padding: "44px 40px", maxWidth: 680, margin: "0 auto" }}>
             <h3 style={{ fontSize: 28, fontWeight: 300, marginBottom: 14 }}>Not sure which <em style={{ color: T.gold }}>service is right for you?</em></h3>
             <p style={{ color: T.muted, lineHeight: 1.8, marginBottom: 32, fontSize: 15 }}>
-              Book a free 20-minute discovery call with Deepali. She will listen deeply, understand what you're carrying, and guide you toward the modality — or combination — that will serve you best.
+              Book a free 20-minute discovery call with Deepalli. She will listen deeply, understand what you're carrying, and guide you toward the modality — or combination — that will serve you best.
             </p>
             <GoldBtn onClick={() => window.open("https://cal.com/chintanchikitsa/15min?overlayCalendar=true","_blank")} fullWidth>Book Your Free Call Now</GoldBtn>
           </GlassCard>
@@ -739,7 +739,7 @@ const SoundHealingPage = () => {
           </h1>
           <WaveViz />
           <p style={{ fontSize: 18, color: T.muted, maxWidth: 560, lineHeight: 1.85, fontWeight: 300, margin: "24px 0 40px" }}>
-            432 Hz. 528 Hz. The song of the cosmos. Sound is not metaphor for healing — it is the mechanism. Every cell responds to vibration. Deepali uses that truth to change lives.
+            432 Hz. 528 Hz. The song of the cosmos. Sound is not metaphor for healing — it is the mechanism. Every cell responds to vibration. Deepalli uses that truth to change lives.
           </p>
           <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
             <GoldBtn onClick={() => window.open("https://cal.com/chintanchikitsa/15min?overlayCalendar=true","_blank")}>Book a Sound Session</GoldBtn>
@@ -811,7 +811,7 @@ const SoundHealingPage = () => {
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32 }} className="mobile-full">
               <div>
                 <h3 style={{ fontSize: 26, color: T.teal, marginBottom: 16 }}>Private Sound Healing</h3>
-                <p style={{ color: T.muted, lineHeight: 1.9, fontSize: 15, marginBottom: 18 }}>Your private session is curated entirely around your unique needs. Deepali selects instruments and frequencies specifically for you and your body's current state.</p>
+                <p style={{ color: T.muted, lineHeight: 1.9, fontSize: 15, marginBottom: 18 }}>Your private session is curated entirely around your unique needs. Deepalli selects instruments and frequencies specifically for you and your body's current state.</p>
                 <p style={{ color: T.muted, lineHeight: 1.9, fontSize: 15, marginBottom: 20 }}>You lie in a comfortable, meditative space while instruments are placed around and occasionally on your body. Most clients enter a state of profound waking rest.</p>
                 {["Fully personalised frequency selection", "Himalayan bowls, crystal bowls, gongs, tuning forks", "Integration conversation included", "Available in-person or as distance healing"].map(i => (
                   <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10, fontSize: 14, color: T.muted }}>
@@ -950,20 +950,20 @@ const AboutPage = () => (
           <div style={{ position: "relative" }}>
             <div style={{ position: "absolute", inset: -20, borderRadius: "50%", border: `1px solid ${T.gold}22`, animation: "spinSlow 25s linear infinite" }} />
             <div style={{ borderRadius: 24, overflow: "hidden", boxShadow: `0 0 80px ${T.purple}44, 0 0 0 1px ${T.gold}22`, position: "relative", zIndex: 2, aspectRatio: "3/4" }}>
-              <img src={HERO_IMG} alt="Deepali Sharma, Holistic Healer and Founder of Chintan Chikitsa" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top" }} />
+              <img src={HERO_IMG} alt="Deepalli Sharma, Holistic Healer and Founder of Chintan Chikitsa" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top" }} />
             </div>
             <div style={{ position: "absolute", bottom: -20, right: -20, padding: "14px 20px", borderRadius: 14, background: "rgba(6,8,16,0.92)", border: `1px solid ${T.gold}44`, backdropFilter: "blur(20px)", zIndex: 3 }}>
               <div style={{ fontSize: 10, color: T.teal, letterSpacing: "0.15em", marginBottom: 4 }}>FOUNDER</div>
-              <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 20, color: T.white }}>Deepali Sharma</div>
+              <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 20, color: T.white }}>Deepalli Sharma</div>
               <div style={{ fontSize: 11, color: T.muted }}>8+ Years · 500+ Clients</div>
             </div>
           </div>
           <div>
             <Label>The Healer's Story</Label>
-            <h1 style={{ fontSize: "clamp(32px, 5vw, 58px)", fontWeight: 300, marginBottom: 26 }}>About <em style={{ color: T.gold }}>Deepali Sharma</em></h1>
-            <p style={{ color: T.muted, lineHeight: 1.95, fontSize: 15, marginBottom: 18 }}>Deepali Sharma did not set out to become a healer. She set out to survive. Her journey began in the heart of corporate India — a high-achieving, high-functioning life that was quietly crumbling beneath the surface.</p>
+            <h1 style={{ fontSize: "clamp(32px, 5vw, 58px)", fontWeight: 300, marginBottom: 26 }}>About <em style={{ color: T.gold }}>Deepalli Sharma</em></h1>
+            <p style={{ color: T.muted, lineHeight: 1.95, fontSize: 15, marginBottom: 18 }}>Deepalli Sharma did not set out to become a healer. She set out to survive. Her journey began in the heart of corporate India — a high-achieving, high-functioning life that was quietly crumbling beneath the surface.</p>
             <p style={{ color: T.muted, lineHeight: 1.95, fontSize: 15, marginBottom: 18 }}>What followed was years of deep immersion: studying NLP with master practitioners, apprenticing in Core Shamanism, training in Tibetan and crystal bowl sound therapy, and receiving certification in Bach Flower Remedies.</p>
-            <p style={{ color: T.muted, lineHeight: 1.95, fontSize: 15, marginBottom: 32 }}>Today, through Chintan Chikitsa — meaning <em style={{ color: T.goldLight }}>Contemplative Healing</em> in Sanskrit — Deepali serves hundreds of individuals, couples, and organisations across India and internationally.</p>
+            <p style={{ color: T.muted, lineHeight: 1.95, fontSize: 15, marginBottom: 32 }}>Today, through Chintan Chikitsa — meaning <em style={{ color: T.goldLight }}>Contemplative Healing</em> in Sanskrit — Deepalli serves hundreds of individuals, couples, and organisations across India and internationally.</p>
             <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
               <GoldBtn onClick={() => window.open("https://cal.com/chintanchikitsa/15min?overlayCalendar=true","_blank")}>Book a Session</GoldBtn>
             </div>
@@ -1027,7 +1027,7 @@ const EventsPage = () => {
   const [showAdminLogin, setShowAdminLogin] = useState(false);
   const [newEvent, setNewEvent] = useState({ title: "", date: "", time: "", location: "", description: "", type: "Sound Bath" });
   const [posting, setPosting] = useState(false);
-  const ADMIN_PASSWORD = "deepali2025";
+  const ADMIN_PASSWORD = "deepalli2025";
  const postEvent = async () => {
   if (!newEvent.title || !newEvent.date) {
     alert("Please fill in Title and Date");
@@ -1111,7 +1111,7 @@ const EventsPage = () => {
           <div>
             <Label>Healing Gatherings</Label>
             <h1 style={{ fontSize: "clamp(36px, 5vw, 68px)", fontWeight: 300 }}>Sacred <em style={{ color: T.gold }}>Events</em></h1>
-            <p style={{ color: T.muted, maxWidth: 480, lineHeight: 1.8, marginTop: 12 }}>Join Deepali for group healing ceremonies, workshops, and immersive sound journeys held in sacred community.</p>
+            <p style={{ color: T.muted, maxWidth: 480, lineHeight: 1.8, marginTop: 12 }}>Join Deepalli for group healing ceremonies, workshops, and immersive sound journeys held in sacred community.</p>
           </div>
           <div>
             {!adminMode ? (
@@ -1160,7 +1160,7 @@ const EventsPage = () => {
           <GlassCard style={{ padding: 60, textAlign: "center" }}>
             <div style={{ fontSize: 48, marginBottom: 16 }}>🌀</div>
             <h3 style={{ fontSize: 22, color: T.muted }}>No upcoming events</h3>
-            <p style={{ color: T.muted, marginTop: 8 }}>Check back soon or follow Deepali on social media for announcements.</p>
+            <p style={{ color: T.muted, marginTop: 8 }}>Check back soon or follow Deepalli on social media for announcements.</p>
           </GlassCard>
         ) : (
           <div style={{ display: "grid", gap: 20 }}>
@@ -1191,7 +1191,7 @@ const EventsPage = () => {
                   <div style={{ display: "flex", flexDirection: "column", gap: 8, flexShrink: 0 }}>
   <GoldBtn
     onClick={() => {
-      const msg = encodeURIComponent(`Hi Deepali! I want to register for: *${ev.title}*\nDate: ${ev.date}\nTime: ${ev.time || "TBD"}\nLocation: ${ev.location || "TBD"}\n\nPlease confirm my spot.`);
+      const msg = encodeURIComponent(`Hi Deepalli! I want to register for: *${ev.title}*\nDate: ${ev.date}\nTime: ${ev.time || "TBD"}\nLocation: ${ev.location || "TBD"}\n\nPlease confirm my spot.`);
       window.open(`https://wa.me/919646118555?text=${msg}`, "_blank");
     }}
     style={{ padding: "10px 20px", fontSize: 12 }}
@@ -1202,7 +1202,7 @@ const EventsPage = () => {
   <button
     onClick={() => {
       const subject = encodeURIComponent(`Registration: ${ev.title}`);
-      const body = encodeURIComponent(`Hi Deepali,\n\nI would like to register for:\n\nEvent: ${ev.title}\nDate: ${ev.date}\nTime: ${ev.time || "TBD"}\nLocation: ${ev.location || "TBD"}\n\nPlease confirm my spot.\n\nThank you!`);
+      const body = encodeURIComponent(`Hi Deepalli,\n\nI would like to register for:\n\nEvent: ${ev.title}\nDate: ${ev.date}\nTime: ${ev.time || "TBD"}\nLocation: ${ev.location || "TBD"}\n\nPlease confirm my spot.\n\nThank you!`);
       window.open(`mailto:hello@chintanchikitsa.com?subject=${subject}&body=${body}`, "_blank");
     }}
     style={{
@@ -1257,12 +1257,12 @@ const ReviewsPage = () => {
   const [loading, setLoading] = useState(true);
 
   const demoReviews = [
-    { id: "r1", name: "Priya M.", service: "Sound Healing", rating: 5, message: "Deepali's sound bath was unlike anything I've ever experienced. I cried within the first 10 minutes — not from sadness, but from the sheer relief of finally feeling my own body again. Three weeks later, my sleep is the best it's been in years." },
-    { id: "r2", name: "Rahul K.", service: "NLP Therapy", rating: 5, message: "I had a severe driving phobia for 11 years. After two NLP sessions with Deepali, I drove on the highway for the first time. I am still in disbelief. This is genuinely life-changing work." },
+    { id: "r1", name: "Priya M.", service: "Sound Healing", rating: 5, message: "Deepalli's sound bath was unlike anything I've ever experienced. I cried within the first 10 minutes — not from sadness, but from the sheer relief of finally feeling my own body again. Three weeks later, my sleep is the best it's been in years." },
+    { id: "r2", name: "Rahul K.", service: "NLP Therapy", rating: 5, message: "I had a severe driving phobia for 11 years. After two NLP sessions with Deepalli, I drove on the highway for the first time. I am still in disbelief. This is genuinely life-changing work." },
     { id: "r3", name: "Sunita A.", service: "Shamanic Healing", rating: 5, message: "The soul retrieval session cracked something open in me that I had been trying to reach in conventional therapy for 5 years. I felt a warmth enter my chest during the ceremony and I haven't felt that hollow emptiness since." },
-    { id: "r4", name: "Dr. Amit V.", service: "Corporate Sound Healing", rating: 5, message: "We brought Deepali in for our 45-person team after a brutal quarter. The collective exhale in that room was audible. Our HR survey two weeks later showed a 34% improvement in stress scores." },
+    { id: "r4", name: "Dr. Amit V.", service: "Corporate Sound Healing", rating: 5, message: "We brought Deepalli in for our 45-person team after a brutal quarter. The collective exhale in that room was audible. Our HR survey two weeks later showed a 34% improvement in stress scores." },
     { id: "r5", name: "Meera S.", service: "Past Life Regression", rating: 5, message: "I went in sceptical. I came out transformed. I understood — viscerally, not intellectually — why I have always felt homesick even when I'm at home." },
-    { id: "r6", name: "Ananya R.", service: "Bach Flower Remedies", rating: 5, message: "The Bach remedies Deepali prescribed have been part of my morning routine for 3 months now. My anxiety is manageable for the first time in my adult life. No side effects, no dependency — just a quiet steadiness." },
+    { id: "r6", name: "Ananya R.", service: "Bach Flower Remedies", rating: 5, message: "The Bach remedies Deepalli prescribed have been part of my morning routine for 3 months now. My anxiety is manageable for the first time in my adult life. No side effects, no dependency — just a quiet steadiness." },
   ];
 
 useEffect(() => { loadReviews(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -1357,7 +1357,7 @@ useEffect(() => { loadReviews(); }, []); // eslint-disable-line react-hooks/exha
               <div style={{ textAlign: "center", padding: "32px 0" }}>
                 <div style={{ fontSize: 52, marginBottom: 16 }}>✨</div>
                 <h3 style={{ fontSize: 24, color: T.gold, marginBottom: 10 }}>Thank You!</h3>
-                <p style={{ color: T.muted, lineHeight: 1.8 }}>Your review has been received. It means the world to Deepali and helps others find their path to healing.</p>
+                <p style={{ color: T.muted, lineHeight: 1.8 }}>Your review has been received. It means the world to Deepalli and helps others find their path to healing.</p>
               </div>
             ) : (
               <div>
@@ -1376,7 +1376,7 @@ useEffect(() => { loadReviews(); }, []); // eslint-disable-line react-hooks/exha
                     ))}
                   </div>
                 </div>
-                <textarea rows={4} placeholder="Share your experience with Deepali's healing work... *" value={form.message} onChange={e => setForm({...form, message: e.target.value})} style={{ ...inputStyle, resize: "vertical" }} />
+                <textarea rows={4} placeholder="Share your experience with Deepalli's healing work... *" value={form.message} onChange={e => setForm({...form, message: e.target.value})} style={{ ...inputStyle, resize: "vertical" }} />
                 <GoldBtn onClick={submitReview} fullWidth>Submit Review ✦</GoldBtn>
               </div>
             )}
@@ -1428,7 +1428,7 @@ const ContactPage = () => {
         <div style={{ textAlign: "center", marginBottom: 64 }}>
           <Label>Get in Touch</Label>
           <h1 style={{ fontSize: "clamp(36px, 5vw, 68px)", fontWeight: 300, marginBottom: 16 }}>Begin Your <em style={{ color: T.gold }}>Journey</em></h1>
-          <p style={{ color: T.muted, maxWidth: 500, margin: "0 auto", lineHeight: 1.85 }}>Every healing journey begins with a single conversation. Deepali personally reads every message and responds within 24 hours.</p>
+          <p style={{ color: T.muted, maxWidth: 500, margin: "0 auto", lineHeight: 1.85 }}>Every healing journey begins with a single conversation. Deepalli personally reads every message and responds within 24 hours.</p>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1.3fr", gap: 40, alignItems: "start" }} className="mobile-full">
           <div>
@@ -1437,7 +1437,7 @@ const ContactPage = () => {
                 <img src={LOGO_IMG} alt="Logo" style={{ width: 44, height: 44, borderRadius: "50%", border: `1.5px solid ${T.gold}55` }} />
                 <div>
                   <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 18, fontWeight: 700 }}>Chintan Chikitsa</div>
-                  <div style={{ fontSize: 11, color: T.muted }}>Deepali Sharma · Frequency Healer</div>
+                  <div style={{ fontSize: 11, color: T.muted }}>Deepalli Sharma · Frequency Healer</div>
                 </div>
               </div>
               <GoldBtn onClick={() => window.open("https://cal.com/chintanchikitsa/15min?overlayCalendar=true","_blank")} fullWidth style={{ marginBottom: 16 }}>✦ Book Free Discovery Call</GoldBtn>
@@ -1469,7 +1469,7 @@ const ContactPage = () => {
               <div style={{ textAlign: "center", padding: "48px 0" }}>
                 <div style={{ fontSize: 60, marginBottom: 20 }}>✨</div>
                 <h2 style={{ fontSize: 28, color: T.gold, marginBottom: 12 }}>Message Sent!</h2>
-                <p style={{ color: T.muted, lineHeight: 1.85 }}>Deepali will be in touch within 24 hours. In the meantime, feel free to book a free discovery call on Cal.com.</p>
+                <p style={{ color: T.muted, lineHeight: 1.85 }}>Deepalli will be in touch within 24 hours. In the meantime, feel free to book a free discovery call on Cal.com.</p>
                 <div style={{ marginTop: 28 }}>
                   <GoldBtn onClick={() => window.open("https://cal.com/chintanchikitsa/15min?overlayCalendar=true","_blank")}>Book Free Call</GoldBtn>
                 </div>
@@ -1502,7 +1502,7 @@ const ContactPage = () => {
                 </div>
                 <div style={{ marginBottom: 24 }}>
                   <label style={{ fontSize: 11, color: T.muted, letterSpacing: "0.1em", textTransform: "uppercase", display: "block", marginBottom: 8 }}>Your Message *</label>
-                  <textarea rows={5} placeholder="Tell Deepali what you are experiencing and what kind of support you are seeking..." value={form.message} onChange={e => setForm({...form, message: e.target.value})} style={{ ...inputStyle, resize: "vertical", lineHeight: 1.65 }} />
+                  <textarea rows={5} placeholder="Tell Deepalli what you are experiencing and what kind of support you are seeking..." value={form.message} onChange={e => setForm({...form, message: e.target.value})} style={{ ...inputStyle, resize: "vertical", lineHeight: 1.65 }} />
                 </div>
                 {error && <p style={{ color: "#ff6b6b", fontSize: 13, marginBottom: 14 }}>{error}</p>}
                 <GoldBtn onClick={sendEmail} fullWidth>{sending ? "Sending..." : "Send Message ✦"}</GoldBtn>
@@ -1525,7 +1525,7 @@ const Footer = ({ setPage }) => (
             <img src={LOGO_IMG} alt="Chintan Chikitsa Logo" style={{ width: 38, height: 38, borderRadius: "50%", border: `1.5px solid ${T.gold}55` }} />
             <div>
               <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 17, fontWeight: 700 }}>Chintan<span style={{ color: T.gold }}>.</span>Chikitsa</div>
-              <div style={{ fontSize: 9, color: T.muted, letterSpacing: "0.15em" }}>DEEPALI SHARMA</div>
+              <div style={{ fontSize: 9, color: T.muted, letterSpacing: "0.15em" }}>DEEPALLI SHARMA</div>
             </div>
           </div>
           <p style={{ color: T.muted, fontSize: 13, lineHeight: 1.85, maxWidth: 280 }}>
@@ -1545,7 +1545,7 @@ const Footer = ({ setPage }) => (
         </div>
         {[
           { title: "Services", links: [["services","Shamanic Healing"],["services","Sound Healing"],["services","NLP Therapy"],["services","Bach Flowers"],["services","Past Life Regression"],["soundhealing","Corporate Wellness"]] },
-          { title: "Company", links: [["about","About Deepali"],["events","Upcoming Events"],["reviews","Client Reviews"],["contact","Contact Us"]] },
+          { title: "Company", links: [["about","About Deepalli"],["events","Upcoming Events"],["reviews","Client Reviews"],["contact","Contact Us"]] },
           { title: "Book", links: [["contact","Free Discovery Call"],["contact","Send a Message"],["contact","Corporate Enquiry"]] },
         ].map(col => (
           <div key={col.title}>
@@ -1563,7 +1563,7 @@ const Footer = ({ setPage }) => (
       </div>
       <Divider />
       <div style={{ paddingTop: 24, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
-        <p style={{ color: T.muted, fontSize: 11 }}>© 2025 Chintan Chikitsa · Deepali Sharma · All rights reserved · Ludhiana, Punjab, India</p>
+        <p style={{ color: T.muted, fontSize: 11 }}>© 2025 Chintan Chikitsa · Deepalli Sharma · All rights reserved · Ludhiana, Punjab, India</p>
         <p style={{ color: T.muted, fontSize: 11 }}>Made with ✦ and healing intention</p>
       </div>
     </div>
@@ -1574,13 +1574,13 @@ export default function App() {
   const [page, setPage] = useState("home");
   useEffect(() => {
     const titles = {
-      home: "Chintan Chikitsa | Deepali Sharma — Frequency Coach & Holistic Healer Ludhiana",
-      about: "About Deepali Sharma | Chintan Chikitsa — Shamanic Healer & NLP Practitioner",
+      home: "Chintan Chikitsa | Deepalli Sharma — Frequency Coach & Holistic Healer Ludhiana",
+      about: "About Deepalli Sharma | Chintan Chikitsa — Shamanic Healer & NLP Practitioner",
       services: "Healing Services | Chintan Chikitsa — Shamanism, Sound Healing, NLP, Bach Flowers",
       soundhealing: "Sound Healing Therapy India | Chintan Chikitsa — Corporate & Individual Sessions",
       events: "Events | Chintan Chikitsa — Sound Baths, Shamanic Circles & NLP Workshops",
       reviews: "Client Reviews | Chintan Chikitsa — Real Healing Transformations",
-      contact: "Contact Deepali Sharma | Chintan Chikitsa — Book a Free Discovery Call",
+      contact: "Contact Deepalli Sharma | Chintan Chikitsa — Book a Free Discovery Call",
     };
     document.title = titles[page] || titles.home;
   }, [page]);
