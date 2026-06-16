@@ -1265,7 +1265,7 @@ const ReviewsPage = () => {
     { id: "r6", name: "Ananya R.", service: "Bach Flower Remedies", rating: 5, message: "The Bach remedies Deepali prescribed have been part of my morning routine for 3 months now. My anxiety is manageable for the first time in my adult life. No side effects, no dependency — just a quiet steadiness." },
   ];
 
-useEffect(() => { loadReviews(); }, [loadReviews]); // eslint-disable-line react-hooks/exhaustive-deps
+useEffect(() => { loadReviews(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const loadReviews = async () => {
   setLoading(true);
